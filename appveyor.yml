@@ -1,0 +1,63 @@
+image: Visual Studio 2017
+platform: x64
+configuration: Release
+clone_folder: C:\Projects\Banshee3D
+
+build_script:
+  # Setup and CMake configure
+  - cmd: set INSTALL_DIR=C:/Projects/Banshee3D/install
+  - cmd: mkdir "%INSTALL_DIR%"
+  - cmd: mkdir Build
+  - cmd: cd Build
+  - cmd: cmake -G "Visual Studio 15 2017 Win64" -DCMAKE_INSTALL_PREFIX:STRING=%INSTALL_DIR% ..
+  - cmd: cd ..  
+  # Build and install
+  - cmd: cd Build
+  - cmd: cmake --build ./ --config Debug --target MBansheeEditor
+  - cmd: cmake --build ./ --config Release
+  - cmd: cmake --build ./ --config Release --target INSTALL
+
+after_build:
+ - ps: cd ..
+ - ps: >-
+      if($env:APPVEYOR_REPO_TAG -eq "true") 
+      { $buildName = $env:APPVEYOR_REPO_TAG_NAME } 
+      else 
+      { $buildName = "$(Get-Date -format yyyy.MM.dd)" }
+ - ps: Set-AppveyorBuildVariable "B3D_BUILD_NAME" "$buildName"
+ - cmd: 7z a b3d_%B3D_BUILD_NAME%_win64.zip ./install/* -xr!*pdb
+ - cmd: 7z a b3d_%B3D_BUILD_NAME%_win64_symbols.zip ./install/*pdb -r
+
+artifacts:
+  - path: b3d_%B3D_BUILD_NAME%_win64.zip
+    name: b3dBinaries
+    type: zip
+  - path: b3d_%B3D_BUILD_NAME%_win64_symbols.zip
+    name: b3dSymbols
+    type: zip
+
+deploy:
+  - provider: S3
+    access_key_id: 
+      secure: DjX7NEjBDYhAMURrE5ucaP95zFdO32Ep91oLWr++/WM=
+    secret_access_key: 
+      secure: QtDQyveDiuE42QLzLmmaWltDOUgEB9eRzT0GicW4DIeWU+K5szFOkHLpCfL9ukRV
+    bucket: b3d-nightly
+    region: us-east-1
+    folder:
+    artifact: b3dBinaries,b3dSymbols
+    set_public: false
+    on:
+      APPVEYOR_SCHEDULED_BUILD: true
+  - provider: S3
+    access_key_id: 
+      secure: DjX7NEjBDYhAMURrE5ucaP95zFdO32Ep91oLWr++/WM=
+    secret_access_key: 
+      secure: QtDQyveDiuE42QLzLmmaWltDOUgEB9eRzT0GicW4DIeWU+K5szFOkHLpCfL9ukRV
+    bucket: b3d-nightly
+    region: us-east-1
+    folder:
+    artifact: b3dBinaries,b3dSymbols
+    set_public: false
+    on:
+      APPVEYOR_REPO_TAG: true

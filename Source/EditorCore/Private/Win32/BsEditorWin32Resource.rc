@@ -1,0 +1,32 @@
+#include "BsFrameworkConfig.h"
+#include "BsEngineConfig.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+#include "winres.h"
+#undef APSTUDIO_READONLY_SYMBOLS
+
+1 VERSIONINFO
+FILEVERSION    	BS_B3D_VERSION_MAJOR,BS_B3D_VERSION_MINOR,BS_B3D_VERSION_PATCH,0
+PRODUCTVERSION 	BS_B3D_VERSION_MAJOR,BS_B3D_VERSION_MINOR,BS_B3D_VERSION_PATCH,0
+FILEOS         	VOS__WINDOWS32
+FILETYPE       	VFT_DLL
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName",            "Marko Pintera and contributors"
+            VALUE "FileDescription",        "Banshee Editor core library"
+            VALUE "FileVersion",            BS_B3D_VERSION_STRING " (based on bs::framework " BS_VERSION_STRING ")"
+            VALUE "ProductName",            "Banshee Engine"
+            VALUE "Licence",                "Released under the under the GNU Lesser General Public License V3 or (at your option) any later version"
+            VALUE "LegalCopyright",         "Copyright (c) 2014-" _MKSTR(BS_B3D_CURRENT_RELEASE_YEAR) " Marko Pintera and contributors"
+            VALUE "Info",                   "https://banshee3d.com"
+            VALUE "ProductVersion",         BS_B3D_VERSION_STRING
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END

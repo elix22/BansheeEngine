@@ -1,0 +1,20 @@
+namespace bs
+{
+	public class NewComponent : ManagedComponent
+	{
+		private void OnInitialize()
+		{
+			// TODO: Add code that needs to be called when Component is created
+		}
+		
+		private void OnUpdate()
+		{
+			// TODO: Add code that needs to be called every frame
+		}
+		
+		private void OnDestroy()
+		{
+			// TODO: Add code that needs to be called when Component is destroyed
+		}
+	}
+}

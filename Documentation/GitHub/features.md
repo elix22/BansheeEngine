@@ -1,114 +1,5 @@
-# Features
+# Editor features
 
-All features listed here are the ones currently available (implemented). If you are interested in what's coming up in the near future check out our [roadmap](roadmap.md).
-  
----------------------------------------------------  
-  
-## Core
-* __Quality design__
-  * Modern code using C++14
-  * Clean layered design
-  * Fully documented
-  * Modular & plugin based
-  * Minimal third-party dependencies
-  * Multiplatform ready
-* __Renderer__
-  * Vulkan, DX11 and OpenGL 4.5 render systems
-  * Multi-threaded rendering
-  * Powerful material system
-    * BansheeFX language for material definitions
-    * Shader parsing for HLSL9, HLSL11 and GLSL
-* __Asset pipeline__
-  * Asynchronous resource loading
-  * Extensible importer system
-  * Available importer plugins for:
-    * FBX, OBJ, DAE meshes
-    * PNG, PSD, BMP, JPG, etc. images
-    * OTF, TTF fonts
-	* OGG, FLAC, WAV, MP3 sounds
-    * HLSL9, HLSL11, GLSL shaders
-* __GUI system__
-  * Unicode text rendering and input
-  * Easy to use layout based system
-  * Many common GUI controls
-  * Fully skinnable
-  * Automatic batching for fast rendering
-  * Supports texture atlases
-  * Supports arbitrary 3D transformations
-  * Localization support (string tables)
-* __Animation__
-  * Skeletal animation with skinning
-    * 1D and 2D animation blending
-    * Additive animation support
-    * Animation events
-    * Root bone animation
-    * Animation sockets for animating in-game objects
-    * Post-processing hooks for IK support
-  * Blend shape animation
-  * Generic property animation
-    * Animate any script property
-    * Built-in animation curve editor
-  * Multi-threaded and GPU accelerated
-* __Input__
-  * Mouse/keyboard/gamepad support
-  * Provides both raw and OS input
-  * Virtual input with built-in key mapping
-  * Virtual axes for analog input devices
-* __Physics__
-  * Implemented using NVIDIA PhysX
-  * Multi-threaded for best performance
-  * Abstract plugin interface extensible for other physics implementations (e.g. Havok, Bullet)
-  * Supported features
-    * Colliders (Box, Sphere, Capsule, Mesh)
-    * Triggers
-    * Rigidbody
-    * Character controller
-    * Joints (Fixed, Distance, Hinge, Spherical, Slider, D6)
-	* Scene queries
-	* Collision filtering
-	* Discrete or continuous collision detection
-* __Scripting__
-  * C# 6.0
-  * Separate high level engine API
-  * Integrated runtime for maximum performance
-  * Full access to .NET framework
-  * Integration with Visual Studio
-  * Automatic serialization
-	* Works with custom components, resources or arbitrary types
-	* Save/load data with no additional code
-	* Handles complex types (e.g. array, list, dictionary) and references
-	* Fast and small memory footprint
-* __Audio__
-  * 3D sounds (panning, attenuation, doppler effect) and 2D sounds (music, narration)
-  * On-the-fly streaming and decompression
-  * Multi-channel support up to 7.1 sound
-  * Multiple listener support for split-screen
-  * Multiple backends
-    * OpenAL
-	* FMOD
-	* Extensible to others
-* __Other__
-  * CPU & GPU profiler
-  * Advanced run-time type information for C++ code
-    * Iterate over class fields, safely cast objects, clone objects, detect base types
-	* Find references to specific objects (e.g. all resources used in a scene)
-	* Serialize/deserialize with no additional code and with automatic versioning
-	* Generate diffs
-  * Utility library
-    * Math
-	* File system
-    * Events
-	* Thread pool
-    * Task scheduler
-    * Logging
-	* Debug drawing
-	* Crash reporting
-	* Unit testing
-	* Custom memory allocators
-
----------------------------------------------------	
-	
-## Editor
 * __Asset management__
   * Simple drag and drop import for many popular formats
   * Automatic reimport of externally modified assets (e.g. modify a shader, see changes in editor right away)
@@ -133,6 +24,9 @@ All features listed here are the ones currently available (implemented). If you 
   * Scripts and data transparently reloaded after compilation so changes may be tested immediately
   * Pause and frame-step to better test and debug your game
   * Analyze and modify scene while playing
+* __Animation__
+  * Built-in animation editor
+  * Generic property animation (Animate any script property)
 * __Fully extensible__
   * Specialized scripting API only for editor extensions
   * Easy to use without needing to know about engine internals

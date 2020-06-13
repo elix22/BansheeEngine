@@ -1,0 +1,3605 @@
+﻿[
+    {
+        "name": "Blank"
+    },
+    {
+        "name": "Texture"
+    },
+    {
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 14,
+        "minWidth": 10,
+        "name": "Label",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            }
+        }
+    },
+    {
+        "border": {
+            "bottom": 1,
+            "left": 1,
+            "right": 1,
+            "top": 1
+        },
+        "focused": {
+            "texture": "WindowFrameFocused.png"
+        },
+        "name": "WindowFrame",
+        "normal": {
+            "texture": "WindowFrameNormal.png"
+        }
+    },
+    {
+        "active": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "ButtonActive.png"
+        },
+        "activeOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "ButtonActive.png"
+        },
+        "border": {
+            "bottom": 4,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "contentOffset": {
+            "bottom": 0,
+            "left": 3,
+            "right": 3,
+            "top": 2
+        },
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 21,
+        "hover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ButtonHover.png"
+        },
+        "hoverOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "ButtonActive.png"
+        },
+        "margins": {
+            "bottom": 2,
+            "left": 0,
+            "right": 0,
+            "top": 0
+        },
+        "minWidth": 20,
+        "name": "Button",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ButtonNormal.png"
+        },
+        "normalOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "ButtonActive.png"
+        },
+        "focused": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ButtonFocused.png"
+        },
+        "focusedOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "ButtonActive.png"
+        },		
+		"focusedHover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ButtonFocusedHover.png"
+        },
+        "focusedHoverOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "ButtonActive.png"
+        },
+        "textHorzAlign": 1,
+        "textVertAlign": 1
+    },
+    {
+        "active": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "ButtonLeftActive.png"
+        },
+        "activeOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "ButtonLeftActive.png"
+        },
+        "border": {
+            "bottom": 4,
+            "left": 7,
+            "right": 2,
+            "top": 2
+        },
+        "contentOffset": {
+            "bottom": 0,
+            "left": 7,
+            "right": 3,
+            "top": 2
+        },
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 21,
+        "hover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ButtonLeftHover.png"
+        },
+        "hoverOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "ButtonLeftActive.png"
+        },
+        "margins": {
+            "bottom": 2,
+            "left": 0,
+            "right": 0,
+            "top": 0
+        },
+        "minWidth": 20,
+        "name": "ButtonLeft",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ButtonLeftNormal.png"
+        },
+        "normalOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "ButtonLeftActive.png"
+        },
+		"focused": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ButtonLeftFocused.png"
+        },
+        "focusedOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "ButtonLeftActive.png"
+        },		
+		"focusedHover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ButtonLeftFocusedHover.png"
+        },
+        "focusedHoverOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "ButtonLeftActive.png"
+        },
+        "textHorzAlign": 1,
+        "textVertAlign": 1
+    },
+    {
+        "active": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "ButtonRightActive.png"
+        },
+        "activeOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "ButtonRightActive.png"
+        },
+        "border": {
+            "bottom": 4,
+            "left": 2,
+            "right": 7,
+            "top": 2
+        },
+        "contentOffset": {
+            "bottom": 0,
+            "left": 3,
+            "right": 7,
+            "top": 2
+        },
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 21,
+        "hover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ButtonRightHover.png"
+        },
+        "hoverOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "ButtonRightActive.png"
+        },
+        "margins": {
+            "bottom": 2,
+            "left": 0,
+            "right": 0,
+            "top": 0
+        },
+        "minWidth": 20,
+        "name": "ButtonRight",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ButtonRightNormal.png"
+        },
+        "normalOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "ButtonRightActive.png"
+        },
+		"focused": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ButtonRightFocused.png"
+        },
+        "focusedOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "ButtonRightActive.png"
+        },		
+		"focusedHover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ButtonRightFocusedHover.png"
+        },
+        "focusedHoverOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "ButtonRightActive.png"
+        },
+        "textHorzAlign": 1,
+        "textVertAlign": 1
+    },
+    {
+        "active": {
+            "texture": "ToggleHover.png"
+        },
+        "activeOn": {
+            "texture": "ToggleHoverOn.png"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 15,
+        "hover": {
+            "texture": "ToggleHover.png"
+        },
+        "hoverOn": {
+            "texture": "ToggleHoverOn.png"
+        },
+        "margins": {
+            "bottom": 2,
+            "left": 0,
+            "right": 0,
+            "top": 0
+        },
+        "name": "Toggle",
+        "normal": {
+            "texture": "ToggleNormal.png"
+        },
+        "normalOn": {
+            "texture": "ToggleNormalOn.png"
+        },
+		"focused": {
+            "texture": "ToggleFocused.png"
+        },
+        "focusedOn": {
+            "texture": "ToggleFocusedOn.png"
+        },
+        "focusedHover": {
+            "texture": "ToggleFocusedHover.png"
+        },
+        "focusedHoverOn": {
+            "texture": "ToggleFocusedHoverOn.png"
+        },
+        "width": 13
+    },
+    {
+        "fixedHeight": true,
+        "height": 15,
+        "margins": {
+            "bottom": 2,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "minWidth": 10,
+        "name": "Color"
+    },
+    {
+        "name": "WindowBackground",
+        "normal": {
+            "texture": "WindowBackground.png"
+        }
+    },
+    {
+        "fixedHeight": true,
+        "height": 16,
+        "name": "TabBarBackground",
+        "normal": {
+            "texture": "TabBarBackground.png"
+        }
+    },
+    {
+        "active": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "TabButtonFocused.png"
+        },
+        "activeOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "TabButtonFocused.png"
+        },
+        "border": {
+            "bottom": 0,
+            "left": 12,
+            "right": 12,
+            "top": 0
+        },
+        "contentOffset": {
+            "bottom": 0,
+            "left": 6,
+            "right": 6,
+            "top": 3
+        },
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 15,
+        "hover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "TabButtonNormal.png"
+        },
+        "hoverOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "TabButtonFocused.png"
+        },
+        "margins": {
+            "bottom": 0,
+            "left": 5,
+            "right": 5,
+            "top": 0
+        },
+        "maxWidth": 110,
+        "minWidth": 24,
+        "name": "TabbedBarBtn",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "TabButtonNormal.png"
+        },
+        "normalOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "TabButtonFocused.png"
+        },
+        "textHorzAlign": 1,
+        "textVertAlign": 1
+    },
+    {
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 13,
+        "name": "TabbedBarDropArea",
+        "width": 6
+    },
+    {
+        "fixedHeight": true,
+        "height": 17,
+        "name": "TitleBarBackground",
+        "normal": {
+            "texture": "TitleBarBackground.png"
+        }
+    },
+    {
+        "active": {
+            "texture": "MinimizeButtonActive.png"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 14,
+        "hover": {
+            "texture": "MinimizeButtonHover.png"
+        },
+        "name": "WinMinimizeBtn",
+        "normal": {
+            "texture": "MinimizeButtonNormal.png"
+        },
+        "width": 14
+    },
+    {
+        "active": {
+            "texture": "MaximizeButtonActive.png"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 14,
+        "hover": {
+            "texture": "MaximizeButtonHover.png"
+        },
+        "name": "WinMaximizeBtn",
+        "normal": {
+            "texture": "MaximizeButtonNormal.png"
+        },
+        "width": 14
+    },
+    {
+        "active": {
+            "texture": "CloseButtonActive.png"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 14,
+        "hover": {
+            "texture": "CloseButtonHover.png"
+        },
+        "name": "WinCloseBtn",
+        "normal": {
+            "texture": "CloseButtonNormal.png"
+        },
+        "width": 14
+    },
+    {
+        "active": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "InputBoxNormal.png"
+        },
+        "border": {
+            "bottom": 1,
+            "left": 1,
+            "right": 3,
+            "top": 4
+        },
+        "contentOffset": {
+            "bottom": 4,
+            "left": 4,
+            "right": 4,
+            "top": 5
+        },
+        "fixedHeight": true,
+        "focused": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "InputBoxActive.png"
+        },
+        "font": "arial.ttf",
+        "height": 21,
+        "hover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "InputBoxHover.png"
+        },
+        "minWidth": 10,
+        "name": "InputBox",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "InputBoxNormal.png"
+        }
+    },
+    {
+        "active": {
+            "texture": "ScrollArrowUpActive.png"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 11,
+        "hover": {
+            "texture": "ScrollArrowUpHover.png"
+        },
+        "name": "ScrollUpBtn",
+        "normal": {
+            "texture": "ScrollArrowUpNormal.png"
+        },
+        "width": 13
+    },
+    {
+        "active": {
+            "texture": "ScrollArrowDownActive.png"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 11,
+        "hover": {
+            "texture": "ScrollArrowDownHover.png"
+        },
+        "name": "ScrollDownBtn",
+        "normal": {
+            "texture": "ScrollArrowDownNormal.png"
+        },
+        "width": 13
+    },
+    {
+        "active": {
+            "texture": "ScrollArrowLeftActive.png"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 13,
+        "hover": {
+            "texture": "ScrollArrowLeftHover.png"
+        },
+        "name": "ScrollLeftBtn",
+        "normal": {
+            "texture": "ScrollArrowLeftNormal.png"
+        },
+        "width": 11
+    },
+    {
+        "active": {
+            "texture": "ScrollArrowRightActive.png"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 13,
+        "hover": {
+            "texture": "ScrollArrowRightHover.png"
+        },
+        "name": "ScrollRightBtn",
+        "normal": {
+            "texture": "ScrollArrowRightNormal.png"
+        },
+        "width": 11
+    },
+    {
+        "active": {
+            "texture": "ScrollBarHHandleActive.png"
+        },
+        "border": {
+            "bottom": 0,
+            "left": 4,
+            "right": 4,
+            "top": 0
+        },
+        "fixedHeight": true,
+        "height": 13,
+        "hover": {
+            "texture": "ScrollBarHHandleHover.png"
+        },
+        "minWidth": 10,
+        "name": "ScrollBarHorzBtn",
+        "normal": {
+            "texture": "ScrollBarHHandleNormal.png"
+        }
+    },
+    {
+        "active": {
+            "texture": "ScrollBarVHandleActive.png"
+        },
+        "border": {
+            "bottom": 4,
+            "left": 0,
+            "right": 0,
+            "top": 4
+        },
+        "fixedWidth": true,
+        "hover": {
+            "texture": "ScrollBarVHandleHover.png"
+        },
+        "minHeight": 10,
+        "name": "ScrollBarVertBtn",
+        "normal": {
+            "texture": "ScrollBarVHandleNormal.png"
+        },
+        "width": 13
+    },
+    {
+        "active": {
+            "texture": "ScrollBarVBackground.png"
+        },
+        "fixedWidth": true,
+        "hover": {
+            "texture": "ScrollBarVBackground.png"
+        },
+        "minHeight": 8,
+        "name": "ScrollBarVert",
+        "normal": {
+            "texture": "ScrollBarVBackground.png"
+        },
+        "subStyles": [
+            {
+                "name": "UIScrollBarHHandle",
+                "style": "ScrollBarHorzBtn"
+            },
+            {
+                "name": "UIScrollBarVHandle",
+                "style": "ScrollBarVertBtn"
+            }
+        ],
+        "width": 16
+    },
+    {
+        "active": {
+            "texture": "ScrollBarHBackground.png"
+        },
+        "fixedHeight": true,
+        "height": 16,
+        "hover": {
+            "texture": "ScrollBarHBackground.png"
+        },
+        "minWidth": 8,
+        "name": "ScrollBarHorz",
+        "normal": {
+            "texture": "ScrollBarHBackground.png"
+        },
+        "subStyles": [
+            {
+                "name": "UIScrollBarHHandle",
+                "style": "ScrollBarHorzBtn"
+            },
+            {
+                "name": "UIScrollBarVHandle",
+                "style": "ScrollBarVertBtn"
+            }
+        ]
+    },
+    {
+        "active": {
+            "texture": "ScrollBarHHandleResizeableActive.png"
+        },
+        "border": {
+            "bottom": 0,
+            "left": 7,
+            "right": 7,
+            "top": 0
+        },
+        "fixedHeight": true,
+        "height": 13,
+        "hover": {
+            "texture": "ScrollBarHHandleResizeableHover.png"
+        },
+        "minWidth": 15,
+        "name": "ScrollBarResizeableHorzBtn",
+        "normal": {
+            "texture": "ScrollBarHHandleResizeableNormal.png"
+        }
+    },
+    {
+        "active": {
+            "texture": "ScrollBarVHandleResizeableActive.png"
+        },
+        "border": {
+            "bottom": 7,
+            "left": 0,
+            "right": 0,
+            "top": 7
+        },
+        "fixedWidth": true,
+        "hover": {
+            "texture": "ScrollBarVHandleResizeableHover.png"
+        },
+        "minHeight": 15,
+        "name": "ScrollBarResizeableVertBtn",
+        "normal": {
+            "texture": "ScrollBarVHandleResizeableNormal.png"
+        },
+        "width": 13
+    },
+    {
+        "active": {
+            "texture": "ScrollBarVBackground.png"
+        },
+        "fixedWidth": true,
+        "hover": {
+            "texture": "ScrollBarVBackground.png"
+        },
+        "minHeight": 15,
+        "name": "ResizeableScrollBarVert",
+        "normal": {
+            "texture": "ScrollBarVBackground.png"
+        },
+        "subStyles": [
+            {
+                "name": "UIScrollBarHHandle",
+                "style": "ScrollBarResizeableHorzBtn"
+            },
+            {
+                "name": "UIScrollBarVHandle",
+                "style": "ScrollBarResizeableVertBtn"
+            }
+        ],
+        "width": 16
+    },
+    {
+        "active": {
+            "texture": "ScrollBarHBackground.png"
+        },
+        "fixedHeight": true,
+        "height": 16,
+        "hover": {
+            "texture": "ScrollBarHBackground.png"
+        },
+        "minWidth": 15,
+        "name": "ResizeableScrollBarHorz",
+        "normal": {
+            "texture": "ScrollBarHBackground.png"
+        },
+        "subStyles": [
+            {
+                "name": "UIScrollBarHHandle",
+                "style": "ScrollBarResizeableHorzBtn"
+            },
+            {
+                "name": "UIScrollBarVHandle",
+                "style": "ScrollBarResizeableVertBtn"
+            }
+        ]
+    },
+    {
+        "active": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownButtonActive.png"
+        },
+        "activeOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownButtonActive.png"
+        },
+        "border": {
+            "bottom": 4,
+            "left": 2,
+            "right": 16,
+            "top": 2
+        },
+        "contentOffset": {
+            "bottom": 2,
+            "left": 3,
+            "right": 18,
+            "top": 2
+        },
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 21,
+        "hover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownButtonHover.png"
+        },
+        "hoverOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownButtonActive.png"
+        },
+        "margins": {
+            "bottom": 2,
+            "left": 0,
+            "right": 0,
+            "top": 0
+        },
+        "minWidth": 20,
+        "name": "ListBox",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownButtonNormal.png"
+        },
+        "normalOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownButtonActive.png"
+        },
+		"focused": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownButtonFocused.png"
+        },
+        "focusedOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownButtonFocused.png"
+        },
+		"focusedHover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownButtonFocusedHover.png"
+        },
+        "focusedHoverOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownButtonFocusedHover.png"
+        },
+        "textVertAlign": 1
+    },
+    {
+        "active": {
+            "texture": "DropDownBoxArrowUpHover.png"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 12,
+        "hover": {
+            "texture": "DropDownBoxArrowUpHover.png"
+        },
+        "name": "ListBoxScrollUpBtn",
+        "normal": {
+            "texture": "DropDownBoxArrowUpNormal.png"
+        },
+        "width": 8
+    },
+    {
+        "active": {
+            "texture": "DropDownBoxArrowUpHover.png"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 12,
+        "hover": {
+            "texture": "DropDownBoxArrowUpHover.png"
+        },
+        "name": "MenuBarScrollUpBtn",
+        "normal": {
+            "texture": "DropDownBoxArrowUpNormal.png"
+        },
+        "width": 8
+    },
+    {
+        "active": {
+            "texture": "DropDownBoxArrowUpHover.png"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 12,
+        "hover": {
+            "texture": "DropDownBoxArrowUpHover.png"
+        },
+        "name": "ContextMenuScrollUpBtn",
+        "normal": {
+            "texture": "DropDownBoxArrowUpNormal.png"
+        },
+        "width": 8
+    },
+    {
+        "active": {
+            "texture": "DropDownBoxArrowDownHover.png"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 12,
+        "hover": {
+            "texture": "DropDownBoxArrowDownHover.png"
+        },
+        "name": "ListBoxScrollDownBtn",
+        "normal": {
+            "texture": "DropDownBoxArrowDownNormal.png"
+        },
+        "width": 8
+    },
+    {
+        "active": {
+            "texture": "DropDownBoxArrowDownHover.png"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 12,
+        "hover": {
+            "texture": "DropDownBoxArrowDownHover.png"
+        },
+        "name": "MenuBarScrollDownBtn",
+        "normal": {
+            "texture": "DropDownBoxArrowDownNormal.png"
+        },
+        "width": 8
+    },
+    {
+        "active": {
+            "texture": "DropDownBoxArrowDownHover.png"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 12,
+        "hover": {
+            "texture": "DropDownBoxArrowDownHover.png"
+        },
+        "name": "ContextMenuScrollDownBtn",
+        "normal": {
+            "texture": "DropDownBoxArrowDownNormal.png"
+        },
+        "width": 8
+    },
+    {
+        "fixedWidth": true,
+        "height": 8,
+        "name": "ListBoxHandle",
+        "normal": {
+            "texture": "DropDownBoxScrollHandle.png"
+        },
+        "width": 8
+    },
+    {
+        "fixedWidth": true,
+        "height": 8,
+        "name": "MenuBarHandle",
+        "normal": {
+            "texture": "DropDownBoxScrollHandle.png"
+        },
+        "width": 8
+    },
+    {
+        "fixedWidth": true,
+        "height": 8,
+        "name": "ContextMenuHandle",
+        "normal": {
+            "texture": "DropDownBoxScrollHandle.png"
+        },
+        "width": 8
+    },
+    {
+        "border": {
+            "bottom": 1,
+            "left": 1,
+            "right": 0,
+            "top": 1
+        },
+        "fixedWidth": true,
+        "height": 8,
+        "name": "ListBoxSidebarBg",
+        "normal": {
+            "texture": "DropDownBoxSideBg.png"
+        },
+        "width": 9
+    },
+    {
+        "border": {
+            "bottom": 1,
+            "left": 1,
+            "right": 0,
+            "top": 1
+        },
+        "fixedWidth": true,
+        "height": 8,
+        "name": "MenuBarSidebarBg",
+        "normal": {
+            "texture": "DropDownBoxSideBg.png"
+        },
+        "width": 9
+    },
+    {
+        "border": {
+            "bottom": 1,
+            "left": 1,
+            "right": 0,
+            "top": 1
+        },
+        "fixedWidth": true,
+        "height": 8,
+        "name": "ContextMenuSidebarBg",
+        "normal": {
+            "texture": "DropDownBoxSideBg.png"
+        },
+        "width": 9
+    },
+    {
+        "active": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownBoxEntryHover.png"
+        },
+        "activeOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownBoxEntryHover.png"
+        },
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 16,
+        "hover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownBoxEntryHover.png"
+        },
+        "hoverOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownBoxEntryHover.png"
+        },
+        "name": "DropDownEntryBtn",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownBoxEntryNormal.png"
+        },
+        "normalOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownBoxEntryHover.png"
+        },
+        "textVertAlign": 1,
+        "width": 30
+    },
+    {
+        "active": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownBoxEntryToggleHover.png"
+        },
+        "activeOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownBoxEntryToggleHoverOn.png"
+        },
+        "border": {
+            "bottom": 0,
+            "left": 17,
+            "right": 0,
+            "top": 0
+        },
+        "contentOffset": {
+            "bottom": 0,
+            "left": 17,
+            "right": 0,
+            "top": 0
+        },
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 18,
+        "hover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownBoxEntryToggleHover.png"
+        },
+        "hoverOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownBoxEntryToggleHoverOn.png"
+        },
+        "name": "DropDownEntryToggleBtn",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownBoxEntryToggleNormal.png"
+        },
+        "normalOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownBoxEntryToggleNormalOn.png"
+        },
+        "textVertAlign": 1,
+        "width": 30
+    },
+    {
+        "active": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownBoxExpandBtnHover.png"
+        },
+        "activeOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownBoxExpandBtnHover.png"
+        },
+        "border": {
+            "bottom": 0,
+            "left": 0,
+            "right": 13,
+            "top": 0
+        },
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 16,
+        "hover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownBoxExpandBtnHover.png"
+        },
+        "hoverOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownBoxExpandBtnHover.png"
+        },
+        "name": "DropDownEntryExpBtn",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownBoxExpandBtnNormal.png"
+        },
+        "normalOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "DropDownBoxExpandBtnHover.png"
+        },
+        "textVertAlign": 1,
+        "width": 30
+    },
+    {
+        "fixedHeight": true,
+        "height": 3,
+        "name": "DropDownSeparator",
+        "normal": {
+            "texture": "DropDownBoxSeparator.png"
+        },
+        "width": 30
+    },
+    {
+        "minHeight": 20,
+        "minWidth": 50,
+        "name": "ListBoxContent",
+        "subStyles": [
+            {
+                "name": "DropDownEntryBtn",
+                "style": "DropDownEntryBtn"
+            },
+            {
+                "name": "DropDownEntryExpBtn",
+                "style": "DropDownEntryExpBtn"
+            },
+            {
+                "name": "DropDownEntryToggleBtn",
+                "style": "DropDownEntryToggleBtn"
+            },
+            {
+                "name": "DropDownSeparator",
+                "style": "DropDownSeparator"
+            }
+        ]
+    },
+    {
+        "minHeight": 20,
+        "minWidth": 50,
+        "name": "MenuBarContent",
+        "subStyles": [
+            {
+                "name": "DropDownEntryBtn",
+                "style": "DropDownEntryBtn"
+            },
+            {
+                "name": "DropDownEntryExpBtn",
+                "style": "DropDownEntryExpBtn"
+            },
+            {
+                "name": "DropDownEntryToggleBtn",
+                "style": "DropDownEntryToggleBtn"
+            },
+            {
+                "name": "DropDownSeparator",
+                "style": "DropDownSeparator"
+            }
+        ]
+    },
+    {
+        "minHeight": 20,
+        "minWidth": 50,
+        "name": "ContextMenuContent",
+        "subStyles": [
+            {
+                "name": "DropDownEntryBtn",
+                "style": "DropDownEntryBtn"
+            },
+            {
+                "name": "DropDownEntryExpBtn",
+                "style": "DropDownEntryExpBtn"
+            },
+            {
+                "name": "DropDownEntryToggleBtn",
+                "style": "DropDownEntryToggleBtn"
+            },
+            {
+                "name": "DropDownSeparator",
+                "style": "DropDownSeparator"
+            }
+        ]
+    },
+    {
+        "active": {
+            "texture": "DropDownBoxBg.png"
+        },
+        "border": {
+            "bottom": 4,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "hover": {
+            "texture": "DropDownBoxBg.png"
+        },
+        "margins": {
+            "bottom": 6,
+            "left": 6,
+            "right": 6,
+            "top": 4
+        },
+        "name": "ListBoxFrame",
+        "normal": {
+            "texture": "DropDownBoxBg.png"
+        }
+    },
+    {
+        "active": {
+            "texture": "DropDownBoxBg.png"
+        },
+        "border": {
+            "bottom": 4,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "hover": {
+            "texture": "DropDownBoxBg.png"
+        },
+        "margins": {
+            "bottom": 6,
+            "left": 6,
+            "right": 6,
+            "top": 4
+        },
+        "name": "MenuBarFrame",
+        "normal": {
+            "texture": "DropDownBoxBg.png"
+        }
+    },
+    {
+        "active": {
+            "texture": "DropDownBoxBg.png"
+        },
+        "border": {
+            "bottom": 4,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "hover": {
+            "texture": "DropDownBoxBg.png"
+        },
+        "margins": {
+            "bottom": 6,
+            "left": 6,
+            "right": 6,
+            "top": 4
+        },
+        "name": "ContextMenuFrame",
+        "normal": {
+            "texture": "DropDownBoxBg.png"
+        }
+    },
+    {
+        "active": {
+            "texture": "DropDownBoxBg.png"
+        },
+        "border": {
+            "bottom": 4,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "hover": {
+            "texture": "DropDownBoxBg.png"
+        },
+        "margins": {
+            "bottom": 6,
+            "left": 6,
+            "right": 6,
+            "top": 4
+        },
+        "name": "TooltipFrame",
+        "normal": {
+            "texture": "DropDownBoxBg.png"
+        }
+    },
+    {
+        "border": {
+            "bottom": 2,
+            "left": 0,
+            "right": 0,
+            "top": 0
+        },
+        "height": 14,
+        "name": "MenuBarBg",
+        "normal": {
+            "texture": "MenuBarBackground.png"
+        },
+        "width": 2
+    },
+    {
+        "fixedHeight": true,
+        "height": 1,
+        "name": "MenuBarLine",
+        "normal": {
+            "texture": "MenuBarLineNormal.png"
+        },
+        "normalOn": {
+            "texture": "MenuBarLineActive.png"
+        }
+    },
+    {
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 46,
+        "name": "MenuBarBansheeLogo",
+        "normal": {
+            "texture": "MenuBarLog.png"
+        },
+        "width": 46
+    },
+    {
+        "active": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "MenuBarButtonActive.png"
+        },
+        "activeOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "MenuBarButtonActive.png"
+        },
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 14,
+        "hover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "MenuBarButtonHover.png"
+        },
+        "hoverOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "MenuBarButtonActive.png"
+        },
+		"focused": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "MenuBarButtonNormal.png"
+        },
+        "focusedOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "MenuBarButtonActive.png"
+        },
+		"focusedHover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "MenuBarButtonNormal.png"
+        },
+        "focusedHoverOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "MenuBarButtonActive.png"
+        },
+        "margins": {
+            "bottom": 2,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "name": "MenuBarBtn",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "MenuBarButtonNormal.png"
+        },
+        "normalOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "MenuBarButtonActive.png"
+        },
+        "width": 4
+    },
+    {
+        "fixedWidth": true,
+        "height": 32,
+        "name": "ToolBarSeparator",
+        "normal": {
+            "texture": "ToolBarSeparator.png"
+        },
+        "width": 3
+    },
+    {
+        "active": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "ToolBarButtonActive.png"
+        },
+        "activeOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+            },
+            "texture": "ToolBarButtonActive.png"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 32,
+        "hover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ToolBarButtonHover.png"
+        },
+        "hoverOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ToolBarButtonActive.png"
+        },
+        "name": "ToolBarBtn",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ToolBarButtonNormal.png"
+        },
+        "normalOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ToolBarButtonActive.png"
+        },
+        "width": 32
+    },
+    {
+        "active": {
+            "texture": "Separator.png"
+        },
+        "height": 2,
+        "hover": {
+            "texture": "Separator.png"
+        },
+        "name": "Separator",
+        "normal": {
+            "texture": "Separator.png"
+        },
+        "width": 2
+    },
+    {
+        "name": "HeaderBackground",
+        "normal": {
+            "texture": "HeaderBg.png"
+        }
+    },
+    {
+        "border": {
+            "bottom": 2,
+            "left": 0,
+            "right": 0,
+            "top": 0
+        },
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 21,
+        "minHeight": 4,
+        "minWidth": 4,
+        "name": "Header",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "Header.png"
+        },
+        "textHorzAlign": 1,
+        "textVertAlign": 1
+    },
+    {
+        "active": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ExpandArrowHoverOff.png"
+        },
+        "activeOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ExpandArrowHoverOn.png"
+        },
+        "border": {
+            "bottom": 0,
+            "left": 10,
+            "right": 0,
+            "top": 0
+        },
+        "contentOffset": {
+            "bottom": 0,
+            "left": 16,
+            "right": 0,
+            "top": 0
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "font": "arial.ttf",
+        "height": 10,
+        "hover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ExpandArrowHoverOff.png"
+        },
+        "hoverOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ExpandArrowHoverOn.png"
+        },
+        "name": "Expand",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ExpandArrowNormalOff.png"
+        },
+        "normalOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ExpandArrowNormalOn.png"
+        },
+        "textVertAlign": 1,
+        "width": 11
+    },
+    {
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 16,
+        "minWidth": 10,
+        "name": "TreeViewElementBtn",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            }
+        }
+    },
+    {
+        "name": "TreeViewBackground"
+    },
+    {
+        "height": 2,
+        "name": "TreeViewSelectionBackground",
+        "normal": {
+            "texture": "SelectionBg.psd"
+        },
+        "width": 2
+    },
+    {
+        "height": 2,
+        "name": "TreeViewHighlightBackground",
+        "normal": {
+            "texture": "TreeViewHighlightBackground.psd"
+        },
+        "width": 2
+    },
+    {
+        "active": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "TreeViewEditBox.psd"
+        },
+        "border": {
+            "bottom": 1,
+            "left": 1,
+            "right": 1,
+            "top": 1
+        },
+        "fixedHeight": true,
+        "focused": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "TreeViewEditBox.psd"
+        },
+        "font": "arial.ttf",
+        "height": 13,
+        "hover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "TreeViewEditBox.psd"
+        },
+        "margins": {
+            "bottom": 1,
+            "left": 1,
+            "right": 1,
+            "top": 1
+        },
+        "minWidth": 10,
+        "name": "TreeViewEditBox",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "TreeViewEditBox.psd"
+        }
+    },
+    {
+        "border": {
+            "bottom": 1,
+            "left": 1,
+            "right": 1,
+            "top": 1
+        },
+        "name": "TreeViewElementHighlight",
+        "normal": {
+            "texture": "TreeViewElementHighlight.psd"
+        }
+    },
+    {
+        "border": {
+            "bottom": 1,
+            "left": 1,
+            "right": 1,
+            "top": 1
+        },
+        "name": "TreeViewElementSepHighlight",
+        "normal": {
+            "texture": "TreeViewElementSepHighlight.psd"
+        }
+    },
+    {
+        "active": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ObjectDropNormal.png"
+        },
+        "activeOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ObjectDropNormalOn.png"
+        },
+        "border": {
+            "bottom": 4,
+            "left": 2,
+            "right": 0,
+            "top": 2
+        },
+        "contentOffset": {
+            "bottom": 0,
+            "left": 3,
+            "right": 1,
+            "top": 0
+        },
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 21,
+        "hover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ObjectDropNormal.png"
+        },
+        "hoverOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ObjectDropNormalOn.png"
+        },
+        "margins": {
+            "bottom": 2,
+            "left": 0,
+            "right": 0,
+            "top": 0
+        },
+        "minWidth": 20,
+        "name": "DropButton",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ObjectDropNormal.png"
+        },
+        "normalOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "ObjectDropNormalOn.png"
+        },
+        "textHorzAlign": 1,
+        "textVertAlign": 1
+    },
+    {
+        "active": {
+            "texture": "ObjectDropClearActive.png"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 21,
+        "hover": {
+            "texture": "ObjectDropClearHover.png"
+        },
+        "margins": {
+            "bottom": 2,
+            "left": 0,
+            "right": 0,
+            "top": 0
+        },
+        "name": "ObjectClearButton",
+        "normal": {
+            "texture": "ObjectDropClearNormal.png"
+        },
+        "width": 16
+    },
+    {
+        "fixedHeight": true,
+        "height": 21,
+        "minWidth": 30,
+        "name": "GUIObjectField",
+        "subStyles": [
+            {
+                "name": "DropButton",
+                "style": "DropButton"
+            },
+            {
+                "name": "EditorFieldLabel",
+                "style": "EditorFieldLabel"
+            },
+            {
+                "name": "ObjectClearButton",
+                "style": "ObjectClearButton"
+            }
+        ]
+    },
+    {
+        "minHeight": 15,
+        "minWidth": 15,
+        "name": "GUITextureField",
+        "subStyles": [
+            {
+                "name": "TextureClearButton",
+                "style": "TextureClearButton"
+            },
+            {
+                "name": "TextureDrop",
+                "style": "TextureDrop"
+            },
+            {
+                "name": "TextureFieldLabel",
+                "style": "EditorFieldLabel"
+            }
+        ]
+    },
+    {
+        "active": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.372549027204514,
+                "g": 0.372549027204514,
+                "r": 0.372549027204514
+            },
+            "texture": "TextureDrop.png"
+        },
+        "activeOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.372549027204514,
+                "g": 0.372549027204514,
+                "r": 0.372549027204514
+            },
+            "texture": "TextureDropHover.png"
+        },
+        "border": {
+            "bottom": 4,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "contentOffset": {
+            "bottom": 4,
+            "left": 4,
+            "right": 4,
+            "top": 4
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "font": "arial.ttf",
+        "height": 84,
+        "hover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.372549027204514,
+                "g": 0.372549027204514,
+                "r": 0.372549027204514
+            },
+            "texture": "TextureDrop.png"
+        },
+        "hoverOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.372549027204514,
+                "g": 0.372549027204514,
+                "r": 0.372549027204514
+            },
+            "texture": "TextureDropHover.png"
+        },
+        "name": "TextureDrop",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.372549027204514,
+                "g": 0.372549027204514,
+                "r": 0.372549027204514
+            },
+            "texture": "TextureDrop.png"
+        },
+        "normalOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.372549027204514,
+                "g": 0.372549027204514,
+                "r": 0.372549027204514
+            },
+            "texture": "TextureDropHover.png"
+        },
+        "textHorzAlign": 1,
+        "textVertAlign": 1,
+        "width": 82
+    },
+    {
+        "active": {
+            "texture": "XBtnActive.png"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 10,
+        "hover": {
+            "texture": "XBtnHover.png"
+        },
+        "name": "TextureClearButton",
+        "normal": {
+            "texture": "XBtnNormal.png"
+        },
+        "width": 10
+    },
+    {
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 14,
+        "minWidth": 10,
+        "name": "EditorFieldLabel",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            }
+        }
+    },
+    {
+        "fixedHeight": true,
+        "height": 21,
+        "minWidth": 30,
+        "name": "GUIIntField",
+        "subStyles": [
+            {
+                "name": "EditorFieldInput",
+                "style": "InputBox"
+            },
+            {
+                "name": "EditorFieldLabel",
+                "style": "EditorFieldLabel"
+            }
+        ]
+    },
+    {
+        "fixedHeight": true,
+        "height": 21,
+        "minWidth": 30,
+        "name": "GUIFloatField",
+        "subStyles": [
+            {
+                "name": "EditorFieldInput",
+                "style": "InputBox"
+            },
+            {
+                "name": "EditorFieldLabel",
+                "style": "EditorFieldLabel"
+            }
+        ]
+    },
+    {
+        "fixedHeight": true,
+        "height": 21,
+        "minWidth": 30,
+        "name": "GUIFloatFieldX",
+        "subStyles": [
+            {
+                "name": "EditorFieldInput",
+                "style": "InputBox"
+            },
+            {
+                "name": "EditorFieldLabel",
+                "style": "ButtonAddOnRed"
+            }
+        ]
+    },
+    {
+        "fixedHeight": true,
+        "height": 21,
+        "minWidth": 30,
+        "name": "GUIFloatFieldY",
+        "subStyles": [
+            {
+                "name": "EditorFieldInput",
+                "style": "InputBox"
+            },
+            {
+                "name": "EditorFieldLabel",
+                "style": "ButtonAddOnGreen"
+            }
+        ]
+    },
+    {
+        "fixedHeight": true,
+        "height": 21,
+        "minWidth": 30,
+        "name": "GUIFloatFieldZ",
+        "subStyles": [
+            {
+                "name": "EditorFieldInput",
+                "style": "InputBox"
+            },
+            {
+                "name": "EditorFieldLabel",
+                "style": "ButtonAddOnBlue"
+            }
+        ]
+    },
+    {
+        "fixedHeight": true,
+        "height": 21,
+        "minWidth": 30,
+        "name": "GUIFloatFieldGray",
+        "subStyles": [
+            {
+                "name": "EditorFieldInput",
+                "style": "InputBox"
+            },
+            {
+                "name": "EditorFieldLabel",
+                "style": "ButtonAddOnGray"
+            }
+        ]
+    },
+    {
+        "fixedHeight": true,
+        "height": 21,
+        "minWidth": 30,
+        "name": "GUITextField",
+        "subStyles": [
+            {
+                "name": "EditorFieldInput",
+                "style": "InputBox"
+            },
+            {
+                "name": "EditorFieldLabel",
+                "style": "EditorFieldLabel"
+            }
+        ]
+    },
+    {
+        "fixedHeight": true,
+        "height": 21,
+        "minWidth": 30,
+        "name": "GUIColorField",
+        "subStyles": [
+            {
+                "name": "EditorFieldColor",
+                "style": "Color"
+            },
+            {
+                "name": "EditorFieldLabel",
+                "style": "EditorFieldLabel"
+            }
+        ]
+    },
+    {
+        "fixedHeight": true,
+        "height": 15,
+        "minWidth": 30,
+        "name": "GUIToggleField",
+        "subStyles": [
+            {
+                "name": "EditorFieldLabel",
+                "style": "EditorFieldLabel"
+            },
+            {
+                "name": "EditorFieldToggleInput",
+                "style": "Toggle"
+            }
+        ]
+    },
+    {
+        "fixedHeight": true,
+        "height": 21,
+        "minWidth": 30,
+        "name": "GUIVector2Field",
+        "subStyles": [
+            {
+                "name": "EditorFieldLabel",
+                "style": "EditorFieldLabel"
+            },
+            {
+                "name": "XFloatField",
+                "style": "GUIFloatFieldX"
+            },
+            {
+                "name": "YFloatField",
+                "style": "GUIFloatFieldY"
+            }
+        ]
+    },
+    {
+        "fixedHeight": true,
+        "height": 21,
+        "minWidth": 30,
+        "name": "GUIVector3Field",
+        "subStyles": [
+            {
+                "name": "EditorFieldLabel",
+                "style": "EditorFieldLabel"
+            },
+            {
+                "name": "XFloatField",
+                "style": "GUIFloatFieldX"
+            },
+            {
+                "name": "YFloatField",
+                "style": "GUIFloatFieldY"
+            },
+            {
+                "name": "ZFloatField",
+                "style": "GUIFloatFieldZ"
+            }
+        ]
+    },
+    {
+        "fixedHeight": true,
+        "height": 35,
+        "minWidth": 30,
+        "name": "GUIVector4Field",
+        "subStyles": [
+            {
+                "name": "EditorFieldLabel",
+                "style": "EditorFieldLabel"
+            },
+            {
+                "name": "XFloatField",
+                "style": "GUIFloatFieldX"
+            },
+            {
+                "name": "YFloatField",
+                "style": "GUIFloatFieldY"
+            },
+            {
+                "name": "ZFloatField",
+                "style": "GUIFloatFieldZ"
+            },
+            {
+                "name": "WFloatField",
+                "style": "GUIFloatFieldGray"
+            }
+        ]
+    },
+    {
+        "fixedHeight": true,
+        "height": 21,
+        "minWidth": 30,
+        "name": "GUIListBoxField",
+        "subStyles": [
+            {
+                "name": "EditorFieldLabel",
+                "style": "EditorFieldLabel"
+            },
+            {
+                "name": "EditorFieldListBox",
+                "style": "ListBox"
+            }
+        ]
+    },
+    {
+        "fixedHeight": true,
+        "height": 21,
+        "minWidth": 30,
+        "name": "GUISliderField",
+        "subStyles": [
+            {
+                "name": "EditorFieldInput",
+                "style": "InputBox"
+            },
+            {
+                "name": "EditorFieldLabel",
+                "style": "EditorFieldLabel"
+            },
+            {
+                "name": "EditorSliderInput",
+                "style": "SliderHorz"
+            }
+        ]
+    },
+    {
+        "active": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "FoldoutHoverOn.png"
+        },
+        "activeOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "FoldoutHoverOn.png"
+        },
+        "border": {
+            "bottom": 4,
+            "left": 15,
+            "right": 2,
+            "top": 2
+        },
+        "contentOffset": {
+            "bottom": 0,
+            "left": 16,
+            "right": 0,
+            "top": 0
+        },
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 21,
+        "hover": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "FoldoutHoverOff.png"
+        },
+        "hoverOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "FoldoutHoverOn.png"
+        },
+        "minWidth": 17,
+        "name": "Foldout",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "FoldoutNormalOff.png"
+        },
+        "normalOn": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            },
+            "texture": "FoldoutNormalOn.png"
+        },
+        "textVertAlign": 1
+    },
+    {
+        "border": {
+            "bottom": 2,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "fixedHeight": true,
+        "height": 27,
+        "name": "ProgressBarBackground",
+        "normal": {
+            "texture": "ProgressBarBg.png"
+        }
+    },
+    {
+        "border": {
+            "bottom": 3,
+            "left": 3,
+            "right": 3,
+            "top": 3
+        },
+        "fixedHeight": true,
+        "height": 27,
+        "name": "ProgressBarFill",
+        "normal": {
+            "texture": "ProgressBarFill.png"
+        }
+    },
+    {
+        "fixedHeight": true,
+        "height": 27,
+        "minWidth": 100,
+        "name": "ProgressBar",
+        "subStyles": [
+            {
+                "name": "ProgressBarBackground",
+                "style": "ProgressBarBackground"
+            },
+            {
+                "name": "ProgressBarFill",
+                "style": "ProgressBarFill"
+            }
+        ]
+    },
+    {
+        "border": {
+            "bottom": 2,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "fixedHeight": true,
+        "height": 12,
+        "name": "ProgressBarSmallBackground",
+        "normal": {
+            "texture": "ProgressBarSmallBg.png"
+        }
+    },
+    {
+        "border": {
+            "bottom": 3,
+            "left": 3,
+            "right": 3,
+            "top": 3
+        },
+        "fixedHeight": true,
+        "height": 12,
+        "name": "ProgressBarSmallFill",
+        "normal": {
+            "texture": "ProgressBarSmallFill.png"
+        }
+    },
+    {
+        "fixedHeight": true,
+        "height": 12,
+        "minWidth": 500,
+        "name": "ProgressBarSmall",
+        "subStyles": [
+            {
+                "name": "ProgressBarBackground",
+                "style": "ProgressBarSmallBackground"
+            },
+            {
+                "name": "ProgressBarFill",
+                "style": "ProgressBarSmallFill"
+            }
+        ]
+    },
+    {
+        "active": {
+            "texture": "SliderHandleActive.png"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 13,
+        "hover": {
+            "texture": "SliderHandleHover.png"
+        },
+        "name": "SliderHandle",
+        "normal": {
+            "texture": "SliderHandleNormal.png"
+        },
+        "width": 12
+    },
+    {
+        "border": {
+            "bottom": 0,
+            "left": 4,
+            "right": 4,
+            "top": 0
+        },
+        "fixedHeight": true,
+        "height": 10,
+        "name": "SliderHorzBg",
+        "normal": {
+            "texture": "SliderHBackground.png"
+        },
+		"focused": {
+            "texture": "SliderHBackgroundFocused.png"
+        }
+    },
+    {
+        "border": {
+            "bottom": 0,
+            "left": 6,
+            "right": 4,
+            "top": 0
+        },
+        "fixedHeight": true,
+        "height": 10,
+        "name": "SliderHorzFill",
+        "normal": {
+            "texture": "SliderHFill.png"
+        }
+    },
+    {
+        "fixedHeight": true,
+        "height": 13,
+        "minWidth": 10,
+        "name": "SliderHorz",
+        "subStyles": [
+            {
+                "name": "SliderBackground",
+                "style": "SliderHorzBg"
+            },
+            {
+                "name": "SliderFill",
+                "style": "SliderHorzFill"
+            },
+            {
+                "name": "SliderHandle",
+                "style": "SliderHandle"
+            }
+        ],
+        "width": 150
+    },
+    {
+        "border": {
+            "bottom": 4,
+            "left": 0,
+            "right": 0,
+            "top": 4
+        },
+        "fixedWidth": true,
+        "name": "SliderVertBg",
+        "normal": {
+            "texture": "SliderVBackground.png"
+        },
+		"focused": {
+            "texture": "SliderVBackgroundFocused.png"
+        },
+        "width": 10
+    },
+    {
+        "border": {
+            "bottom": 4,
+            "left": 0,
+            "right": 0,
+            "top": 6
+        },
+        "fixedWidth": true,
+        "name": "SliderVertFill",
+        "normal": {
+            "texture": "SliderVFill.png"
+        },
+        "width": 10
+    },
+    {
+        "fixedWidth": true,
+        "height": 150,
+        "minHeight": 10,
+        "name": "SliderVert",
+        "subStyles": [
+            {
+                "name": "SliderBackground",
+                "style": "SliderVertBg"
+            },
+            {
+                "name": "SliderFill",
+                "style": "SliderVertFill"
+            },
+            {
+                "name": "SliderHandle",
+                "style": "SliderHandle"
+            }
+        ],
+        "width": 13
+    },
+    {
+        "active": {
+            "texture": "ColorPickerSliderHorzHandle.psd"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 20,
+        "hover": {
+            "texture": "ColorPickerSliderHorzHandle.psd"
+        },
+        "name": "ColorSliderHorzHandle",
+        "normal": {
+            "texture": "ColorPickerSliderHorzHandle.psd"
+        },
+        "width": 7
+    },
+    {
+        "fixedHeight": true,
+        "height": 32,
+        "minWidth": 20,
+        "name": "ColorSliderHorz",
+        "subStyles": [
+            {
+                "name": "SliderHandle",
+                "style": "ColorSliderHorzHandle"
+            }
+        ]
+    },
+    {
+        "active": {
+            "texture": "ColorPickerSliderVertHandle.psd"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 7,
+        "hover": {
+            "texture": "ColorPickerSliderVertHandle.psd"
+        },
+        "name": "ColorSliderVertHandle",
+        "normal": {
+            "texture": "ColorPickerSliderVertHandle.psd"
+        },
+        "width": 45
+    },
+    {
+        "fixedWidth": true,
+        "minHeight": 20,
+        "name": "ColorSliderVert",
+        "subStyles": [
+            {
+                "name": "SliderHandle",
+                "style": "ColorSliderVertHandle"
+            }
+        ],
+        "width": 30
+    },
+    {
+        "active": {
+            "texture": "ColorPicker2DHandle.psd"
+        },
+        "fixedHeight": true,
+        "fixedWidth": true,
+        "height": 7,
+        "hover": {
+            "texture": "ColorPicker2DHandle.psd"
+        },
+        "name": "ColorSlider2DHandle",
+        "normal": {
+            "texture": "ColorPicker2DHandle.psd"
+        },
+        "width": 7
+    },
+    {
+        "border": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 2
+        },
+        "height": 16,
+        "name": "GUIStatusBarBg",
+        "normal": {
+            "texture": "StatusBarBackground.png"
+        }
+    },
+    {
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 16,
+        "minWidth": 10,
+        "name": "GUIStatusBarMessage",
+        "textVertAlign": 1
+    },
+    {
+        "height": 16,
+        "name": "GUIStatusBar",
+        "subStyles": [
+            {
+                "name": "GUIStatusBarBg",
+                "style": "GUIStatusBarBg"
+            },
+            {
+                "name": "GUIStatusBarMessage",
+                "style": "GUIStatusBarMessage"
+            }
+        ]
+    },
+    {
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 11,
+        "minWidth": 10,
+        "name": "LabelCentered",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            }
+        },
+        "textHorzAlign": 1
+    },
+    {
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 11,
+        "minWidth": 10,
+        "name": "RightAlignedLabel",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            }
+        },
+        "textHorzAlign": 2
+    },
+    {
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 11,
+        "minWidth": 10,
+        "name": "MultiLineLabel",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            }
+        },
+        "wordWrap": true
+    },
+    {
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 11,
+        "minWidth": 10,
+        "name": "MultiLineLabelCentered",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            }
+        },
+        "textHorzAlign": 1,
+        "wordWrap": true
+    },
+    {
+        "fixedHeight": true,
+        "font": "arialAA.ttf",
+        "fontSize": 16,
+        "height": 20,
+        "minWidth": 10,
+        "name": "TitleLabel",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            }
+        },
+        "textHorzAlign": 1,
+        "wordWrap": true
+    },
+    {
+        "border": {
+            "bottom": 1,
+            "left": 1,
+            "right": 1,
+            "top": 1
+        },
+        "name": "SelectionArea",
+        "normal": {
+            "texture": "SelectionHighlight.png"
+        }
+    },
+    {
+        "activeOn": {
+            "texture": "SelectionBg.psd"
+        },
+        "fixedHeight": true,
+        "font": "arial.ttf",
+        "height": 11,
+        "hoverOn": {
+            "texture": "SelectionBg.psd"
+        },
+        "minWidth": 10,
+        "name": "SelectableLabel",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            }
+        },
+        "normalOn": {
+            "texture": "SelectionBg.psd"
+        }
+    },
+    {
+        "border": {
+            "bottom": 4,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "minHeight": 6,
+        "minWidth": 4,
+        "name": "ScrollAreaBg",
+        "normal": {
+            "texture": "ScrollAreaBg.png"
+        }
+    },
+    {
+        "border": {
+            "bottom": 2,
+            "left": 0,
+            "right": 0,
+            "top": 0
+        },
+        "minHeight": 4,
+        "name": "InspectorTitleBg",
+        "normal": {
+            "texture": "InspectorTitleBg.png"
+        }
+    },
+    {
+        "border": {
+            "bottom": 4,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "minHeight": 6,
+        "minWidth": 4,
+        "name": "InspectorContentBg",
+        "normal": {
+            "texture": "InspectorContentBg.png"
+        }
+    },
+    {
+        "border": {
+            "bottom": 4,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "minHeight": 6,
+        "minWidth": 4,
+        "name": "InspectorContentBgAlternate",
+        "normal": {
+            "texture": "InspectorContentBgAlternate.png"
+        }
+    },
+    {
+        "border": {
+            "bottom": 2,
+            "left": 2,
+            "right": 0,
+            "top": 5
+        },
+        "minHeight": 7,
+        "minWidth": 4,
+        "name": "LibraryEntryFirstBg",
+        "normal": {
+            "texture": "LibraryEntryFirstBg.png"
+        }
+    },
+    {
+        "border": {
+            "bottom": 2,
+            "left": 0,
+            "right": 0,
+            "top": 5
+        },
+        "minHeight": 7,
+        "minWidth": 4,
+        "name": "LibraryEntryBg",
+        "normal": {
+            "texture": "LibraryEntryBg.png"
+        }
+    },
+    {
+        "border": {
+            "bottom": 2,
+            "left": 0,
+            "right": 2,
+            "top": 5
+        },
+        "minHeight": 7,
+        "name": "LibraryEntryLastBg",
+        "normal": {
+            "texture": "LibraryEntryLastBg.png"
+        }
+    },
+    {
+        "border": {
+            "bottom": 0,
+            "left": 2,
+            "right": 4,
+            "top": 4
+        },
+        "minHeight": 5,
+        "minWidth": 6,
+        "name": "LibraryEntryVertFirstBg",
+        "normal": {
+            "texture": "LibraryEntryVertFirstBg.png"
+        }
+    },
+    {
+        "border": {
+            "bottom": 0,
+            "left": 2,
+            "right": 4,
+            "top": 0
+        },
+        "minHeight": 4,
+        "minWidth": 6,
+        "name": "LibraryEntryVertBg",
+        "normal": {
+            "texture": "LibraryEntryVertBg.png"
+        }
+    },
+    {
+        "border": {
+            "bottom": 2,
+            "left": 2,
+            "right": 4,
+            "top": 0
+        },
+        "minHeight": 4,
+        "minWidth": 6,
+        "name": "LibraryEntryVertLastBg",
+        "normal": {
+            "texture": "LibraryEntryVertLastBg.png"
+        }
+    },
+    {
+        "name": "Canvas"
+    },
+	{
+        "border": {
+            "bottom": 4,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "contentOffset": {
+            "bottom": 4,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "fixedHeight": false,
+        "fixedWidth": false,
+        "name": "ContainerBg",
+        "normal": {
+            "texture": "ContainerBg.png"
+        }
+    },
+    {
+        "fixedHeight": true,
+        "height": 15,
+        "margins": {
+            "bottom": 2,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "minWidth": 10,
+        "name": "ColorGradient"
+    },
+    {
+        "name": "GUICurves",
+        "minHeight": 40,
+        "margins": {
+            "bottom": 2,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "minWidth": 30,
+        "subStyles": [
+            {
+                "name": "Background",
+                "style": "CurveBg"
+            }
+        ]
+    },
+    {
+        "name": "GUIFloatDistributionField",
+        "minHeight": 20,
+		"maxHeight": 50,
+        "minWidth": 30,
+        "subStyles": [
+            {
+                "name": "FloatField",
+                "style": "GUIFloatField"
+            },
+            {
+                "name": "CurvesField",
+                "style": "GUICurvesField"
+            },
+            {
+                "name": "DropDownButton",
+                "style": "DropDownArrowButton"
+            },
+            {
+                "name": "EditorFieldLabel",
+                "style": "EditorFieldLabel"
+            }
+        ]
+    },
+    {
+        "name": "GUIVector2DistributionField",
+        "minHeight": 21,
+		"maxHeight": 100,
+        "minWidth": 30,
+        "subStyles": [
+            {
+                "name": "FloatField",
+                "style": "GUIVector2Field"
+            },
+            {
+                "name": "CurvesFieldX",
+                "style": "GUICurvesFieldX"
+            },
+            {
+                "name": "CurvesFieldY",
+                "style": "GUICurvesFieldY"
+            },
+            {
+                "name": "DropDownButton",
+                "style": "DropDownArrowButton"
+            },
+            {
+                "name": "EditorFieldLabel",
+                "style": "EditorFieldLabel"
+            }
+        ]
+    },
+    {
+        "name": "GUIVector3DistributionField",
+        "minHeight": 21,
+		"maxHeight": 150,
+        "minWidth": 30,
+        "subStyles": [
+            {
+                "name": "FloatField",
+                "style": "GUIVector3Field"
+            },
+            {
+                "name": "CurvesFieldX",
+                "style": "GUICurvesFieldX"
+            },
+            {
+                "name": "CurvesFieldY",
+                "style": "GUICurvesFieldY"
+            },
+            {
+                "name": "CurvesFieldZ",
+                "style": "GUICurvesFieldZ"
+            },
+            {
+                "name": "DropDownButton",
+                "style": "DropDownArrowButton"
+            },
+            {
+                "name": "EditorFieldLabel",
+                "style": "EditorFieldLabel"
+            }
+        ]
+    },
+    {
+        "fixedHeight": true,
+        "height": 21,
+        "minWidth": 30,
+        "name": "GUIColorGradientField",
+        "subStyles": [
+            {
+                "name": "GradientField",
+                "style": "ColorGradient"
+            },
+            {
+                "name": "EditorFieldLabel",
+                "style": "EditorFieldLabel"
+            }
+        ]
+    },
+    {
+        "name": "GUIColorDistributionField",
+        "minHeight": 21,
+        "minWidth": 30,
+        "subStyles": [
+            {
+                "name": "ColorField",
+                "style": "GUIColorField"
+            },
+            {
+                "name": "GradientField",
+                "style": "GUIColorGradientField"
+            },
+            {
+                "name": "DropDownButton",
+                "style": "DropDownArrowButton"
+            },
+            {
+                "name": "EditorFieldLabel",
+                "style": "EditorFieldLabel"
+            }
+        ]
+    },
+    {
+        "name": "DropDownArrowButton",
+		"fixedWidth": true,
+        "fixedHeight": true,
+		"width": 18,
+        "height": 21,
+        "normal": {
+            "texture": "DropDownArrowNormal.png"
+        },
+        "hover": {
+            "texture": "DropDownArrowHover.png"
+        },
+		"active": {
+            "texture": "DropDownArrowActive.png"
+        }
+    },
+    {
+        "name": "ButtonAddOnBlue",
+        "minHeight": 6,
+		"fixedWidth": true,
+		"width": 15,
+        "border": {
+            "bottom": 1,
+            "left": 1,
+            "right": 1,
+            "top": 4
+        },
+        "margins": {
+            "bottom": 2,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.7,
+                "g": 0.7,
+                "r": 0.7
+            },
+            "texture": "ButtonAddOnBlue.png"
+        },
+        "textHorzAlign": 1,
+        "textVertAlign": 1,
+        "font": "arialBold.ttf",
+        "fontSize": 8
+    },
+    {
+        "name": "ButtonAddOnGreen",
+        "minHeight": 6,
+		"fixedWidth": true,
+		"width": 15,
+        "border": {
+            "bottom": 1,
+            "left": 1,
+            "right": 1,
+            "top": 4
+        },
+        "margins": {
+            "bottom": 2,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.7,
+                "g": 0.7,
+                "r": 0.7
+            },
+            "texture": "ButtonAddOnGreen.png"
+        },
+        "textHorzAlign": 1,
+        "textVertAlign": 1,
+        "font": "arialBold.ttf",
+        "fontSize": 8
+    },
+    {
+        "name": "ButtonAddOnRed",
+        "minHeight": 6,
+		"fixedWidth": true,
+		"width": 15,
+        "border": {
+            "bottom": 1,
+            "left": 1,
+            "right": 1,
+            "top": 4
+        },
+        "margins": {
+            "bottom": 2,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.7,
+                "g": 0.7,
+                "r": 0.7
+            },
+            "texture": "ButtonAddOnRed.png"
+        },
+        "textHorzAlign": 1,
+        "textVertAlign": 1,
+        "font": "arialBold.ttf",
+        "fontSize": 8
+    },
+    {
+        "name": "ButtonAddOnGray",
+        "minHeight": 6,
+		"fixedWidth": true,
+		"width": 15,
+        "border": {
+            "bottom": 1,
+            "left": 1,
+            "right": 1,
+            "top": 4
+        },
+        "margins": {
+            "bottom": 2,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.7,
+                "g": 0.7,
+                "r": 0.7
+            },
+            "texture": "ButtonAddOnGray.png"
+        },
+        "textHorzAlign": 1,
+        "textVertAlign": 1,
+        "font": "arialBold.ttf",
+        "fontSize": 8
+    },
+    {
+	    "name": "CurveBg",
+        "minHeight": 4,
+		"minWidth": 4,
+        "border": {
+            "bottom": 1,
+            "left": 1,
+            "right": 1,
+            "top": 1
+        },
+        "normal": {
+            "texture": "CurveBg.png"
+        }
+    },
+	{
+        "name": "GUICurvesField",
+        "minHeight": 40,
+        "minWidth": 30,
+        "subStyles": [
+            {
+                "name": "EditorFieldLabel",
+                "style": "EditorFieldLabel"
+            },
+            {
+                "name": "EditorFieldCurves",
+                "style": "GUICurves"
+            }
+        ]
+    },
+	{
+        "name": "GUICurvesFieldX",
+        "minHeight": 40,
+        "minWidth": 30,
+        "subStyles": [
+            {
+                "name": "EditorFieldLabel",
+                "style": "ButtonAddOnRed"
+            },
+            {
+                "name": "EditorFieldCurves",
+                "style": "GUICurves"
+            }
+        ]
+    },
+	{
+        "name": "GUICurvesFieldY",
+        "minHeight": 40,
+        "minWidth": 30,
+        "subStyles": [
+            {
+                "name": "EditorFieldLabel",
+                "style": "ButtonAddOnGreen"
+            },
+            {
+                "name": "EditorFieldCurves",
+                "style": "GUICurves"
+            }
+        ]
+    },
+	{
+        "name": "GUICurvesFieldZ",
+        "minHeight": 40,
+        "minWidth": 30,
+        "subStyles": [
+            {
+                "name": "EditorFieldLabel",
+                "style": "ButtonAddOnBlue"
+            },
+            {
+                "name": "EditorFieldCurves",
+                "style": "GUICurves"
+            }
+        ]
+    },
+	{
+        "name": "GUICurvesFieldGray",
+        "minHeight": 40,
+        "minWidth": 30,
+        "subStyles": [
+            {
+                "name": "EditorFieldLabel",
+                "style": "ButtonAddOnGray"
+            },
+            {
+                "name": "EditorFieldCurves",
+                "style": "GUICurves"
+            }
+        ]
+    },
+    {
+        "name": "HeaderLight",
+		"fixedHeight": true,
+        "height": 12,
+        "border": {
+            "bottom": 1,
+            "left": 1,
+            "right": 1,
+            "top": 4
+        },
+        "margins": {
+            "bottom": 2,
+            "left": 2,
+            "right": 2,
+            "top": 2
+        },
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.7,
+                "g": 0.7,
+                "r": 0.7
+            },
+            "texture": "HeaderLightBg.png"
+        },
+        "textHorzAlign": 1,
+        "textVertAlign": 1,
+        "font": "arialBold.ttf",
+        "fontSize": 8
+    },
+    {
+        "fixedHeight": true,
+        "font": "arialBold.ttf",
+        "height": 14,
+        "minWidth": 10,
+        "name": "LabelBold",
+        "normal": {
+            "textColor": {
+                "a": 1.0,
+                "b": 0.699999988079071,
+                "g": 0.699999988079071,
+                "r": 0.699999988079071
+            }
+        }
+    }
+]

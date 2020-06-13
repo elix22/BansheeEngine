@@ -1,0 +1,14 @@
+mixin GizmoCommon
+{
+	code
+	{
+		cbuffer Uniforms
+		{
+			float4x4 	gMatViewProj;
+			float4		gViewDir;
+			float 		gInvViewportWidth;
+			float 		gInvViewportHeight;
+			float 		gViewportYFlip;
+		}
+	};
+};

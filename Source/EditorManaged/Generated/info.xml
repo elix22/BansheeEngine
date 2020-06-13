@@ -1,0 +1,635 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<entries>
+	<class native="AudioClipImportOptions" script="AudioClipImportOptions">
+		<doc>Contains import options you may use to control how an audio clip is imported.</doc>
+	</class>
+	<enum native="PlayInEditorState" script="PlayInEditorState">
+		<doc>States the game in editor can be in.</doc>
+		<enumentry native="Stopped" script="Stopped">
+		</enumentry>
+		<enumentry native="Playing" script="Playing">
+		</enumentry>
+		<enumentry native="Paused" script="Paused">
+		</enumentry>
+	</enum>
+	<enum native="CubemapSourceType" script="CubemapSourceType">
+		<doc>Determines the type of the source image for generating cubemaps.</doc>
+		<enumentry native="Single" script="Single">
+			<doc>Source is a single image that will be replicated on all cubemap faces.</doc>
+		</enumentry>
+		<enumentry native="Faces" script="Faces">
+			<doc>Source is a list of 6 images, either sequentially next to each other or in a cross format. The system will automatically guess the layout and orientation based on the aspect ratio.</doc>
+		</enumentry>
+		<enumentry native="Spherical" script="Spherical">
+			<doc>Source is a single spherical panoramic image.</doc>
+		</enumentry>
+		<enumentry native="Cylindrical" script="Cylindrical">
+			<doc>Source is a single cylindrical panoramic image.</doc>
+		</enumentry>
+	</enum>
+	<class native="GUIColorGradientHDRField" script="GUIColorGradientHDRField">
+		<doc>A composite GUI object representing an editor field. Editor fields are a combination of a label and an input field. Label is optional. This specific implementation displays a color gradient input field with support for HDR colors.</doc>
+	</class>
+	<class native="ImportedAnimationEvents" script="ImportedAnimationEvents">
+		<doc>A set of animation events that will be added to an animation clip during animation import.</doc>
+	</class>
+	<enum native="LogMessageIcon" script="LogMessageIcon">
+		<doc>Types of icons to be used along with log messages depending on their severity.</doc>
+		<enumentry native="Info" script="Info">
+		</enumentry>
+		<enumentry native="Warning" script="Warning">
+		</enumentry>
+		<enumentry native="Error" script="Error">
+		</enumentry>
+	</enum>
+	<class native="ImportOptions" script="ImportOptions">
+		<doc>Base class for creating import options from. Import options are specific for each importer and control how is data imported.</doc>
+	</class>
+	<enum native="AnimationWindowIcon" script="AnimationWindowIcon">
+		<doc>Types of icons that may be displayed in the animation editor window.</doc>
+		<enumentry native="Play" script="Play">
+		</enumentry>
+		<enumentry native="Record" script="Record">
+		</enumentry>
+		<enumentry native="FrameForward" script="FrameForward">
+		</enumentry>
+		<enumentry native="FrameBack" script="FrameBack">
+		</enumentry>
+		<enumentry native="AddKeyframe" script="AddKeyframe">
+		</enumentry>
+		<enumentry native="AddEvent" script="AddEvent">
+		</enumentry>
+		<enumentry native="Keyframe" script="Keyframe">
+		</enumentry>
+		<enumentry native="Event" script="Event">
+		</enumentry>
+	</enum>
+	<class native="SceneTreeViewState" script="SceneTreeViewState">
+		<doc>Information about all elements displayed in a GUISceneTreeView.</doc>
+	</class>
+	<class native="GUIVector2Field" script="GUIVector2Field">
+		<doc>A composite GUI object representing an editor field. Editor fields are a combination of a label and an input field. Label is optional. This specific implementation displays a Vector2 input field.</doc>
+		<event native="onValueChanged" script="OnValueChanged" static="false">
+			<doc>Reports the new value of the vector when the user changes the value of any of the vector components.</doc>
+			<param name="p0" type="Vector2">
+			</param>
+		</event>
+		<event native="onComponentChanged" script="OnComponentChanged" static="false">
+			<doc>Reports the new value of an individual vector component when the user changes it.</doc>
+			<param name="p0" type="float">
+			</param>
+			<param name="p1" type="VectorComponent">
+			</param>
+		</event>
+		<event native="onComponentFocusChanged" script="OnComponentFocusChanged" static="false">
+			<doc>Triggered when an individual component loses or gains focus.</doc>
+			<param name="p0" type="bool">
+			</param>
+			<param name="p1" type="VectorComponent">
+			</param>
+		</event>
+		<event native="onConfirm" script="OnConfirm" static="false">
+			<doc>Triggered when the user hits the Enter key with any of the component input boxes in focus.</doc>
+			<param name="p0" type="VectorComponent">
+			</param>
+		</event>
+	</class>
+	<class native="GUIColorGradient" script="GUIColorGradient">
+		<doc>GUI element that displays a color gradient.</doc>
+	</class>
+	<class native="TextureImportOptions" script="TextureImportOptions">
+		<doc>Contains import options you may use to control how is a texture imported.</doc>
+	</class>
+	<class native="BuiltinEditorResources" script="EditorBuiltin">
+		<doc>Contains a set of built-in resources used by the editor.</doc>
+	</class>
+	<class native="AnimationSplitInfo" script="AnimationSplitInfo">
+		<doc>Information about how to split an AnimationClip into multiple separate clips.</doc>
+	</class>
+	<enum native="SceneObjectDiffFlags" script="SceneObjectDiffFlags">
+		<doc>Flags that mark which portion of a scene-object is modified.</doc>
+		<enumentry native="Name" script="Name">
+		</enumentry>
+		<enumentry native="Position" script="Position">
+		</enumentry>
+		<enumentry native="Rotation" script="Rotation">
+		</enumentry>
+		<enumentry native="Scale" script="Scale">
+		</enumentry>
+		<enumentry native="Active" script="Active">
+		</enumentry>
+	</enum>
+	<struct native="CurveDrawInfo" script="CurveDrawInfo">
+		<doc>Curve and a color to draw it in.</doc>
+		<ctor>
+		</ctor>
+		<ctor>
+			<param name="curve" type="AnimationCurve">
+			</param>
+			<param name="color" type="Color">
+			</param>
+		</ctor>
+		<field name="curve" type="AnimationCurve">
+		</field>
+		<field name="color" type="Color">
+		</field>
+	</struct>
+	<enum native="LibraryWindowIcon" script="LibraryWindowIcon">
+		<doc>Types of icons that may be displayed in the library window.</doc>
+		<enumentry native="Home" script="Home">
+		</enumentry>
+		<enumentry native="Up" script="Up">
+		</enumentry>
+		<enumentry native="Clear" script="Clear">
+		</enumentry>
+		<enumentry native="Options" script="Options">
+		</enumentry>
+	</enum>
+	<class native="GUIVector2DistributionField" script="GUIVector2DistributionField">
+		<doc>A composite GUI object representing an editor field. Editor fields are a combination of a label and an input field. Label is optional. This specific implementation displays an input field for a 2D vector distribution.</doc>
+		<event native="onConstantModified" script="OnConstantModified" static="false">
+			<doc>Triggered when the user modifies the value of the non-curve (constant) values of the distribution. Only relevant  if the distribution is not a curve distribution.</doc>
+			<param name="p0" type="RangeComponent">
+			</param>
+			<param name="p1" type="VectorComponent">
+			</param>
+		</event>
+		<event native="onConstantConfirmed" script="OnConstantConfirmed" static="false">
+			<doc>Triggered when the user confirms inputs in the non-curve (constant) values of the distribution. Only relevant  if the distribution is not a curve distribution.</doc>
+			<param name="p0" type="RangeComponent">
+			</param>
+			<param name="p1" type="VectorComponent">
+			</param>
+		</event>
+		<event native="onConstantFocusChanged" script="OnConstantFocusChanged" static="false">
+			<doc>Triggered when a GUI field representing an individual component loses or gains focus. This only applies to input fields representing the non-curve (constant) distribution types.</doc>
+			<param name="p0" type="bool">
+			</param>
+			<param name="p1" type="RangeComponent">
+			</param>
+			<param name="p2" type="VectorComponent">
+			</param>
+		</event>
+	</class>
+	<enum native="EditorToggleIcon" script="EditorToggleIcon">
+		<doc>Types of icons used in various areas throughout the editor, for toggleable elements.</doc>
+		<enumentry native="AnimateProperty" script="AnimateProperty">
+		</enumentry>
+	</enum>
+	<enum native="CollisionMeshType" script="CollisionMeshType">
+		<doc>Controls what type of collision mesh should be imported during mesh import.</doc>
+		<enumentry native="None" script="None">
+			<doc>No collision mesh will be imported.</doc>
+		</enumentry>
+		<enumentry native="Normal" script="Normal">
+			<doc>Normal triangle mesh will be imported.</doc>
+		</enumentry>
+		<enumentry native="Convex" script="Convex">
+			<doc>A convex hull will be generated from the source mesh.</doc>
+		</enumentry>
+	</enum>
+	<enum native="EditorIcon" script="EditorIcon">
+		<doc>Types of icons used in various areas throughout the editor.</doc>
+		<enumentry native="X" script="X">
+		</enumentry>
+		<enumentry native="Component" script="Component">
+		</enumentry>
+		<enumentry native="SceneObject" script="SceneObject">
+		</enumentry>
+	</enum>
+	<class native="MeshImportOptions" script="MeshImportOptions">
+		<doc>Contains import options you may use to control how is a mesh imported from some external format into engine format.</doc>
+	</class>
+	<enum native="ShadingLanguageFlag" script="ShadingLanguageFlags">
+		<doc>Supported types of low-level shading languages.</doc>
+		<enumentry native="HLSL" script="HLSL">
+			<doc>High level shading language used by DirectX backend.</doc>
+		</enumentry>
+		<enumentry native="GLSL" script="GLSL">
+			<doc>OpenGL shading language.</doc>
+		</enumentry>
+		<enumentry native="VKSL" script="VKSL">
+			<doc>Variant of GLSL used for Vulkan.</doc>
+		</enumentry>
+		<enumentry native="MSL" script="MSL">
+			<doc>Metal shading language.</doc>
+		</enumentry>
+		<enumentry native="All" script="All">
+			<doc>Helper entry that includes all languages.</doc>
+		</enumentry>
+	</enum>
+	<class native="ShaderImportOptions" script="ShaderImportOptions">
+		<doc>Contains import options you may use to control how is a shader imported.</doc>
+	</class>
+	<enum native="CurveDrawOption" script="CurveDrawOptions">
+		<doc>Controls which elements should a GUICurves object draw.</doc>
+		<enumentry native="DrawMarkers" script="DrawMarkers">
+			<doc>Draws markers at specific time intervals.</doc>
+		</enumentry>
+		<enumentry native="DrawKeyframes" script="DrawKeyframes">
+			<doc>Draws elements representing individual keyframes.</doc>
+		</enumentry>
+		<enumentry native="DrawRange" script="DrawRange">
+			<doc>Draws curves and the area between them. Only relevant if only two curves are provided for drawing.</doc>
+		</enumentry>
+	</enum>
+	<enum native="SceneViewIcon" script="SceneViewIcon">
+		<doc>Types of icons that are used as 3D icons in the scene view.</doc>
+		<enumentry native="Camera" script="Camera">
+		</enumentry>
+		<enumentry native="Light" script="Light">
+		</enumentry>
+		<enumentry native="AudioSource" script="AudioSource">
+		</enumentry>
+		<enumentry native="AudioListener" script="AudioListener">
+		</enumentry>
+		<enumentry native="Decal" script="Decal">
+		</enumentry>
+		<enumentry native="ParticleSystem" script="ParticleSystem">
+		</enumentry>
+		<enumentry native="LightProbes" script="LightProbes">
+		</enumentry>
+		<enumentry native="ReflectionProbe" script="ReflectionProbe">
+		</enumentry>
+	</enum>
+	<enum native="FontRenderMode" script="FontRenderMode">
+		<doc>Determines how is a font rendered into the bitmap texture.</doc>
+		<enumentry native="Smooth" script="Smooth">
+		</enumentry>
+		<enumentry native="Raster" script="Raster">
+		</enumentry>
+		<enumentry native="HintedSmooth" script="HintedSmooth">
+		</enumentry>
+		<enumentry native="HintedRaster" script="HintedRaster">
+		</enumentry>
+	</enum>
+	<class native="GUIColorGradientField" script="GUIColorGradientField">
+		<doc>A composite GUI object representing an editor field. Editor fields are a combination of a label and an input field. Label is optional. This specific implementation displays a color gradient input field.</doc>
+	</class>
+	<struct native="CharRange" script="CharRange">
+		<doc>Represents a range of character code.</doc>
+		<ctor>
+		</ctor>
+		<ctor>
+			<param name="start" type="int">
+			</param>
+			<param name="end" type="int">
+			</param>
+		</ctor>
+		<field name="start" type="int">
+		</field>
+		<field name="end" type="int">
+		</field>
+	</struct>
+	<class native="FontImportOptions" script="FontImportOptions">
+		<doc>Import options that allow you to control how is a font imported.</doc>
+	</class>
+	<class native="ScriptCodeImportOptions" script="ScriptCodeImportOptions">
+		<doc>Contains import options you may use to control how is a file containing script source code importer.</doc>
+	</class>
+	<enum native="ToolbarIcon" script="ToolbarIcon">
+		<doc>Types of icons that may be displayed on the tool bar.</doc>
+		<enumentry native="NewCone" script="NewCone">
+		</enumentry>
+		<enumentry native="NewCamera" script="NewCamera">
+		</enumentry>
+		<enumentry native="NewRenderable" script="NewRenderable">
+		</enumentry>
+		<enumentry native="NewPointLight" script="NewPointLight">
+		</enumentry>
+		<enumentry native="NewDirLight" script="NewDirLight">
+		</enumentry>
+		<enumentry native="NewSpotLight" script="NewSpotLight">
+		</enumentry>
+		<enumentry native="NewSceneObject" script="NewSceneObject">
+		</enumentry>
+		<enumentry native="NewCube" script="NewCube">
+		</enumentry>
+		<enumentry native="NewSphere" script="NewSphere">
+		</enumentry>
+		<enumentry native="NewQuad" script="NewQuad">
+		</enumentry>
+		<enumentry native="NewMat" script="NewMat">
+		</enumentry>
+		<enumentry native="NewCSScript" script="NewCSScript">
+		</enumentry>
+		<enumentry native="NewShader" script="NewShader">
+		</enumentry>
+		<enumentry native="NewSpriteTex" script="NewSpriteTex">
+		</enumentry>
+		<enumentry native="Pause" script="Pause">
+		</enumentry>
+		<enumentry native="Play" script="Play">
+		</enumentry>
+		<enumentry native="Step" script="Step">
+		</enumentry>
+		<enumentry native="Undo" script="Undo">
+		</enumentry>
+		<enumentry native="Redo" script="Redo">
+		</enumentry>
+		<enumentry native="OpenProject" script="OpenProject">
+		</enumentry>
+		<enumentry native="SaveProject" script="SaveProject">
+		</enumentry>
+		<enumentry native="SaveScene" script="SaveScene">
+		</enumentry>
+	</enum>
+	<class native="PlayInEditor" script="PlayInEditor">
+		<doc>Handles functionality specific to running the game in editor.</doc>
+		<event native="onPlay" script="OnPlay" static="false">
+			<doc>Triggered right after the play mode is entered.</doc>
+		</event>
+		<event native="onPaused" script="OnPaused" static="false">
+			<doc>Triggered right after the user pauses play mode.</doc>
+		</event>
+		<event native="onUnpaused" script="OnUnpaused" static="false">
+			<doc>Triggered right after the user unpauses play mode.</doc>
+		</event>
+	</class>
+	<class native="GUIColorDistributionField" script="GUIColorDistributionField">
+		<doc>A composite GUI object representing an editor field. Editor fields are a combination of a label and an input field. Label is optional. This specific implementation displays an input field for a color distribution.</doc>
+	</class>
+	<class native="GUIColorField" script="GUIColorField">
+		<doc>A composite GUI object representing an editor field. Editor fields are a combination of a label and an input field. Label is optional. This specific implementation displays a color input field.</doc>
+	</class>
+	<class native="GUIColorGradientHDR" script="GUIColorGradientHDR">
+		<doc>GUI element that displays a color gradient with HDR color support.</doc>
+	</class>
+	<class native="GUITimeline" script="GUITimeline">
+		<doc>Base class that can be implemented by GUI elements needing to elements along draw a horizontal timeline.</doc>
+	</class>
+	<enum native="GUITickStepType" script="GUITickStepType">
+		<doc>Determines how should ticks reported by &lt;see cref=&quot;GUIGraphTicks&quot;/&gt; be distributed.</doc>
+		<enumentry native="Time" script="Time">
+			<doc>Ticks represent time values (Multiples of 60).</doc>
+		</enumentry>
+		<enumentry native="Generic" script="Generic">
+			<doc>Ticks represent generic values (Multiples of 10).</doc>
+		</enumentry>
+	</enum>
+	<class native="GUIGraphTicks" script="GUIGraphTicks">
+		<doc>Generates a set of locations that can be used for rendering ticks on a graph. As input the class takes valid range, size of the area the ticks will be displayed on, type of ticks and minimum/maximum spacing and outputs a set of coordinates along which ticks should be positioned. Ticks are reported as multiple separate levels with different strengths, depending on how close their distribution is to the upper valid range.</doc>
+	</class>
+	<class native="GUICurves" script="GUICurves">
+		<doc>GUI element that displays one or multiple curves.</doc>
+	</class>
+	<class native="GUICurvesField" script="GUICurvesField">
+		<doc>A composite GUI object representing an editor field. Editor fields are a combination of a label and an input field. Label is optional. This specific implementation displays an animation curve or a range between two animation curves.</doc>
+	</class>
+	<class native="GUIFloatDistributionField" script="GUIFloatDistributionField">
+		<doc>A composite GUI object representing an editor field. Editor fields are a combination of a label and an input field. Label is optional. This specific implementation displays an input field for a floating point distribution.</doc>
+		<event native="onConstantModified" script="OnConstantModified" static="false">
+			<doc>Triggered when the user modifies the value of the non-curve (constant) values of the distribution. Only relevant  if the distribution is not a curve distribution.</doc>
+			<param name="p0" type="RangeComponent">
+			</param>
+			<param name="p1" type="VectorComponent">
+			</param>
+		</event>
+		<event native="onConstantConfirmed" script="OnConstantConfirmed" static="false">
+			<doc>Triggered when the user confirms inputs in the non-curve (constant) values of the distribution. Only relevant  if the distribution is not a curve distribution.</doc>
+			<param name="p0" type="RangeComponent">
+			</param>
+			<param name="p1" type="VectorComponent">
+			</param>
+		</event>
+		<event native="onConstantFocusChanged" script="OnConstantFocusChanged" static="false">
+			<doc>Triggered when a GUI field representing an individual component loses or gains focus. This only applies to input fields representing the non-curve (constant) distribution types.</doc>
+			<param name="p0" type="bool">
+			</param>
+			<param name="p1" type="RangeComponent">
+			</param>
+			<param name="p2" type="VectorComponent">
+			</param>
+		</event>
+	</class>
+	<class native="GUIVector3DistributionField" script="GUIVector3DistributionField">
+		<doc>A composite GUI object representing an editor field. Editor fields are a combination of a label and an input field. Label is optional. This specific implementation displays an input field for a 3D vector distribution.</doc>
+		<event native="onConstantModified" script="OnConstantModified" static="false">
+			<doc>Triggered when the user modifies the value of the non-curve (constant) values of the distribution. Only relevant  if the distribution is not a curve distribution.</doc>
+			<param name="p0" type="RangeComponent">
+			</param>
+			<param name="p1" type="VectorComponent">
+			</param>
+		</event>
+		<event native="onConstantConfirmed" script="OnConstantConfirmed" static="false">
+			<doc>Triggered when the user confirms inputs in the non-curve (constant) values of the distribution. Only relevant  if the distribution is not a curve distribution.</doc>
+			<param name="p0" type="RangeComponent">
+			</param>
+			<param name="p1" type="VectorComponent">
+			</param>
+		</event>
+		<event native="onConstantFocusChanged" script="OnConstantFocusChanged" static="false">
+			<doc>Triggered when a GUI field representing an individual component loses or gains focus. This only applies to input fields representing the non-curve (constant) distribution types.</doc>
+			<param name="p0" type="bool">
+			</param>
+			<param name="p1" type="RangeComponent">
+			</param>
+			<param name="p2" type="VectorComponent">
+			</param>
+		</event>
+	</class>
+	<struct native="SceneTreeViewElement" script="SceneTreeViewElement">
+		<doc>Information about a single element in GUISceneTreeView.</doc>
+		<field name="sceneObject" type="SceneObject">
+		</field>
+		<field name="isExpanded" type="bool">
+		</field>
+	</struct>
+	<class native="GUIVector3Field" script="GUIVector3Field">
+		<doc>A composite GUI object representing an editor field. Editor fields are a combination of a label and an input field. Label is optional. This specific implementation displays a Vector3 input field.</doc>
+		<event native="onValueChanged" script="OnValueChanged" static="false">
+			<doc>Reports the new value of the vector when the user changes the value of any of the vector components.</doc>
+			<param name="p0" type="Vector3">
+			</param>
+		</event>
+		<event native="onComponentChanged" script="OnComponentChanged" static="false">
+			<doc>Reports the new value of an individual vector component when the user changes it.</doc>
+			<param name="p0" type="float">
+			</param>
+			<param name="p1" type="VectorComponent">
+			</param>
+		</event>
+		<event native="onComponentFocusChanged" script="OnComponentFocusChanged" static="false">
+			<doc>Triggered when an individual component loses or gains focus.</doc>
+			<param name="p0" type="bool">
+			</param>
+			<param name="p1" type="VectorComponent">
+			</param>
+		</event>
+		<event native="onConfirm" script="OnConfirm" static="false">
+			<doc>Triggered when the user hits the Enter key with any of the component input boxes in focus.</doc>
+			<param name="p0" type="VectorComponent">
+			</param>
+		</event>
+	</class>
+	<class native="GUIVector4Field" script="GUIVector4Field">
+		<doc>A composite GUI object representing an editor field. Editor fields are a combination of a label and an input field. Label is optional. This specific implementation displays a Vector4 input field.</doc>
+		<event native="onValueChanged" script="OnValueChanged" static="false">
+			<doc>Reports the new value of the vector when the user changes the value of any of the vector components.</doc>
+			<param name="p0" type="Vector4">
+			</param>
+		</event>
+		<event native="onComponentChanged" script="OnComponentChanged" static="false">
+			<doc>Reports the new value of an individual vector component when the user changes it.</doc>
+			<param name="p0" type="float">
+			</param>
+			<param name="p1" type="VectorComponent">
+			</param>
+		</event>
+		<event native="onComponentFocusChanged" script="OnComponentFocusChanged" static="false">
+			<doc>Triggered when an individual component loses or gains focus.</doc>
+			<param name="p0" type="bool">
+			</param>
+			<param name="p1" type="VectorComponent">
+			</param>
+		</event>
+		<event native="onConfirm" script="OnConfirm" static="false">
+			<doc>Triggered when the user hits the Enter key with any of the component input boxes in focus.</doc>
+			<param name="p0" type="VectorComponent">
+			</param>
+		</event>
+	</class>
+	<struct native="ProjectResourceIcons" script="ProjectResourceIcons">
+		<doc>Different icon sizes for project resource preview icons.</doc>
+		<field name="icon16" type="RRef&lt;Texture&gt;">
+		</field>
+		<field name="icon32" type="RRef&lt;Texture&gt;">
+		</field>
+		<field name="icon48" type="RRef&lt;Texture&gt;">
+		</field>
+		<field name="icon64" type="RRef&lt;Texture&gt;">
+		</field>
+		<field name="icon96" type="RRef&lt;Texture&gt;">
+		</field>
+		<field name="icon128" type="RRef&lt;Texture&gt;">
+		</field>
+		<field name="icon192" type="RRef&lt;Texture&gt;">
+		</field>
+		<field name="icon256" type="RRef&lt;Texture&gt;">
+		</field>
+	</struct>
+	<struct native="GizmoDrawSettings" script="GizmoDrawSettings">
+		<doc>Settings that control gizmo drawing.</doc>
+		<ctor>
+		</ctor>
+		<field name="iconScale" type="float">
+			<doc>Scale to apply to gizmo icons, controlling their size.</doc>
+		</field>
+		<field name="iconRange" type="float">
+			<doc>Maximum range at which gizmo icons will be rendered, in world units.</doc>
+		</field>
+		<field name="iconSizeMin" type="float">
+			<doc>Icons smaller than this size will be faded out. The value represents the size of the icon relative to viewport  size (e.g. 1 means the icons fully covers the viewport). In range [0, 1], should be smaller than maximum size value.</doc>
+		</field>
+		<field name="iconSizeMax" type="float">
+			<doc>Icons larger than this size will be faded out. The value represents the size of the icon relative to viewport  size (e.g. 1 means the icons fully covers the viewport). In range [0, 1], should be larger than minimum size value.</doc>
+		</field>
+		<field name="iconSizeCull" type="float">
+			<doc>Icons larger than this size will not be shown. The value represents the size of the icon relative to viewport  size (e.g. 1 means the icons fully covers the viewport). In range [0, 1], should be larger than maximum size value.</doc>
+		</field>
+	</struct>
+	<class native="SerializedSceneObject" script="SerializedSceneObject">
+		<doc>Serializes the current state of a scene object and allows that state to be restored. The advantage of using this  class versus normal serialization is that the deserialization happens into the original scene object, instead of creating a new scene object.</doc>
+	</class>
+	<enum native="ProjectLibraryIcon" script="ProjectLibraryIcon">
+		<doc>Types of valid icons used when viewing the project library.</doc>
+		<enumentry native="ShaderInclude" script="ShaderInclude">
+		</enumentry>
+		<enumentry native="Folder" script="Folder">
+		</enumentry>
+		<enumentry native="Mesh" script="Mesh">
+		</enumentry>
+		<enumentry native="Font" script="Font">
+		</enumentry>
+		<enumentry native="Texture" script="Texture">
+		</enumentry>
+		<enumentry native="PlainText" script="PlainText">
+		</enumentry>
+		<enumentry native="ScriptCode" script="ScriptCode">
+		</enumentry>
+		<enumentry native="SpriteTexture" script="SpriteTexture">
+		</enumentry>
+		<enumentry native="Shader" script="Shader">
+		</enumentry>
+		<enumentry native="Material" script="Material">
+		</enumentry>
+		<enumentry native="Prefab" script="Prefab">
+		</enumentry>
+		<enumentry native="GUISkin" script="GUISkin">
+		</enumentry>
+		<enumentry native="PhysicsMaterial" script="PhysicsMaterial">
+		</enumentry>
+		<enumentry native="PhysicsMesh" script="PhysicsMesh">
+		</enumentry>
+		<enumentry native="AudioClip" script="AudioClip">
+		</enumentry>
+		<enumentry native="AnimationClip" script="AnimationClip">
+		</enumentry>
+		<enumentry native="VectorField" script="VectorField">
+		</enumentry>
+	</enum>
+	<enum native="SceneWindowIcon" script="SceneWindowIcon">
+		<doc>Types of icons that may be displayed in the scene window.</doc>
+		<enumentry native="MoveSnap" script="MoveSnap">
+		</enumentry>
+		<enumentry native="View" script="View">
+		</enumentry>
+		<enumentry native="Move" script="Move">
+		</enumentry>
+		<enumentry native="Rotate" script="Rotate">
+		</enumentry>
+		<enumentry native="Scale" script="Scale">
+		</enumentry>
+		<enumentry native="Pivot" script="Pivot">
+		</enumentry>
+		<enumentry native="Center" script="Center">
+		</enumentry>
+		<enumentry native="Local" script="Local">
+		</enumentry>
+		<enumentry native="World" script="World">
+		</enumentry>
+		<enumentry native="RotateSnap" script="RotateSnap">
+		</enumentry>
+		<enumentry native="SceneCameraOptions" script="SceneCameraOptions">
+		</enumentry>
+	</enum>
+	<enum native="InspectorWindowIcon" script="InspectorWindowIcon">
+		<doc>Types of icons that may be displayed in the inspector window.</doc>
+		<enumentry native="Apply" script="Apply">
+		</enumentry>
+		<enumentry native="Create" script="Create">
+		</enumentry>
+		<enumentry native="Clone" script="Clone">
+		</enumentry>
+		<enumentry native="Clear" script="Clear">
+		</enumentry>
+		<enumentry native="Resize" script="Resize">
+		</enumentry>
+		<enumentry native="Delete" script="Delete">
+		</enumentry>
+		<enumentry native="MoveUp" script="MoveUp">
+		</enumentry>
+		<enumentry native="MoveDown" script="MoveDown">
+		</enumentry>
+		<enumentry native="Edit" script="Edit">
+		</enumentry>
+		<enumentry native="Add" script="Add">
+		</enumentry>
+		<enumentry native="Cancel" script="Cancel">
+		</enumentry>
+	</enum>
+	<enum native="EditorSprites" script="EditorSprites">
+		<doc>Various built-in sprite textures.</doc>
+		<enumentry native="Spinner" script="Spinner">
+		</enumentry>
+	</enum>
+	<enum native="GUITextureFieldType" script="GUITextureFieldType">
+		<doc>Type that control what type of texture does a GUITexture field accept.</doc>
+		<enumentry native="Texture" script="Texture">
+		</enumentry>
+		<enumentry native="SpriteTexture" script="SpriteTexture">
+		</enumentry>
+		<enumentry native="TextureOrSpriteTexture" script="TextureOrSpriteTexture">
+		</enumentry>
+	</enum>
+</entries>
